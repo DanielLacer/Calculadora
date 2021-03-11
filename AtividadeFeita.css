@@ -1,0 +1,121 @@
+body{
+    background: linear-gradient(90deg,#52009e,#192A42 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    user-select: none;
+}
+
+body::after {
+ 
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #eb0027;
+    clip-path: polygon(67% 2%, 100% 50%, 68% 100%, 57% 100%, 80% 50%, 56% 2%);
+    border-color:#eb0027;
+    border: solid;
+    top: -4px;
+}
+
+.container{
+
+    left: -10px;
+    width: 360px;
+    height: 500px;
+    display: flex;
+    position: relative;
+    margin: 90px auto;
+    opacity: inherit;
+    border-style: solid;
+    border-color: #eb0027;
+    
+}
+
+
+#display{
+
+    border: medium;
+    border-style: solid;
+    border-color: #eb0027;
+    position: relative;
+    left: 79px;
+    top: 70px;
+    color: white;
+    text-align: right;
+    font-weight: 600;
+    padding: 10px;
+    background: transparent;
+    font-family: sans-serif;
+
+}
+
+.button{
+
+    margin: 15px 0 0 5px;
+    width: 42px;
+    height: 42px;
+    position: relative;
+    left: 75px;
+    top: 130px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: visible;
+    transition: 0.2s;
+    color: white;
+    background: #52009e;
+    border: none;
+    cursor: pointer;
+    font-family: sans-serif;
+
+}
+
+.button:hover
+{
+    color: #eb0027;
+    background: #4902cc;
+    transition delay: 0.5s;
+    box-shadow: inset 2 2 20px #4902cc, inset 4 4 80px #4902cc, inset 8 8 120px #4902cc;
+    border-color: #eb0027;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+.clearButton{
+   
+    background: #2B125F ;
+    color: white;
+    cursor: pointer;
+
+}
+
+.bestbutton{
+
+    background: #eb0027;
+    color: white;
+    cursor: pointer;
+}
+  
+.decoration{
+        
+    content: "";
+    left: 1px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #4902cc;
+    clip-path: polygon(43% 2%,18% 50%,43% 100%,29% 100%,0% 50%,32% 2%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    user-select: none;
+    border-color:#4902cc;
+    border: solid;
+    top: -5px;
+
